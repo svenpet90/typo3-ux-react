@@ -7,9 +7,6 @@ Render React components directly in Fluid template
 This Extensions enables you to render React Components directly in Fluid templates.
 It acts as an integration for [symfony/ux-react](https://github.com/symfony/ux-react) into TYPO3.
 
-## Prerequsites
-
-
 ## Installation
 
 The recommended way to install the extension is by
