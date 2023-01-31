@@ -1,3 +1,9 @@
+[![Latest Stable Version](http://poser.pugx.org/svenpetersen/typo3-ux-react/v)](https://packagist.org/packages/svenpetersen/typo3-ux-react)
+[![Total Downloads](http://poser.pugx.org/svenpetersen/typo3-ux-react/downloads)](https://packagist.org/packages/svenpetersen/typo3-ux-react)
+[![Latest Unstable Version](http://poser.pugx.org/svenpetersen/typo3-ux-react/v/unstable)](https://packagist.org/packages/svenpetersen/typo3-ux-react)
+[![License](http://poser.pugx.org/svenpetersen/typo3-ux-react/license)](https://packagist.org/packages/svenpetersen/typo3-ux-react)
+[![PHP Version Require](http://poser.pugx.org/svenpetersen/typo3-ux-react/require/php)](https://packagist.org/packages/svenpetersen/typo3-ux-react)
+
 TYPO3 Extension "typo3-ux-react"
 =================================
 
