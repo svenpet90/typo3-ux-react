@@ -1,7 +1,7 @@
 {
 	"name": "svenpetersen/typo3-ux-react",
 	"type": "typo3-cms-extension",
-	"description": "Symfony UX React integration for TYPO3/Fluid",
+	"description": "Easily render React components in Fluid templates",
 	"homepage": "https://github.com/svenpet90",
 	"keywords": [
 		"TYPO3",
