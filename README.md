@@ -2,7 +2,7 @@ TYPO3 Extension "typo3-ux-react"
 =================================
 
 ## What does it do?
-Render React components directly in Fluid template
+Render React components directly in Fluid templates.
 
 This Extensions enables you to render React Components directly in Fluid templates.
 It acts as an integration for [symfony/ux-react](https://github.com/symfony/ux-react) into TYPO3.
@@ -15,7 +15,7 @@ root, just run:
 <pre>composer require svenpetersen/typo3-ux-react</pre>
 
 ## Setup
-Before you start, make sure you have [EXT:typo3_encore](https://github.com/sabbelasichon/typo3_encore).
+Before you start, make sure you have [EXT:typo3_encore](https://github.com/sabbelasichon/typo3_encore) installed and configured.
 This extensions integrates [Webpack Encore](https://symfony.com/doc/current/frontend.html) into TYPO3.
 
 Follow the [Symfony UX React official documentation](https://symfony.com/bundles/ux-react/current/index.html)
