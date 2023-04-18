@@ -4,18 +4,11 @@ declare(strict_types=1);
 
 namespace SvenPetersen\UX\React\ViewHelpers;
 
-use SvenPetersen\FluidStimulus\ViewHelpers\AbstractStimulusViewHelper;
+use Ssch\Typo3Encore\ViewHelpers\Stimulus\AbstractViewHelper;
 
-class ReactComponentViewHelper extends AbstractStimulusViewHelper
+class ReactComponentViewHelper extends AbstractViewHelper
 {
     protected $escapeOutput = false;
-
-    private AbstractStimulusViewHelper $stimulusFluidViewHelper;
-
-    public function __construct(AbstractStimulusViewHelper $stimulusFluidViewHelper)
-    {
-        $this->stimulusFluidViewHelper = $stimulusFluidViewHelper;
-    }
 
     public function initializeArguments(): void
     {
@@ -31,6 +24,6 @@ class ReactComponentViewHelper extends AbstractStimulusViewHelper
             $params['props'] = $this->arguments['props'];
         }
 
-        return $this->stimulusFluidViewHelper->renderStimulusController('@symfony/ux-react/react', $params)->__toString();
+        return $this->renderStimulusController('@symfony/ux-react/react', $params)->__toString();
     }
 }
